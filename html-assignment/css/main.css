@@ -1,0 +1,13 @@
+body { font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px ;
+}
+h1, footer {
+ background-color: blueviolet;   
+}
+.site-title{
+ color: blue;   
+}
+dl:nth-child(odd){ color: aquamarine;
+}
+#picture-of-myself{ filter: blur(2px);
+}
