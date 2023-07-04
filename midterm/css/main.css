@@ -11,4 +11,16 @@ h1{color: white ;}
 #lone-starfish{height: 20%; width: 20%;} 
 .main-content{padding-left: 20%;  padding-bottom: 10%;}
 
-body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;} 
+.wrapper{max-width: 80% ; margin: 0 auto ; background-color:#c5e9e5; padding: 1rem;}
+
+h1{ position: absolute; top: 50%; right: 50%;
+}
+header{position: relative;}
+
+a{text-decoration: none; width: 30%; display: inline-block; }
+
+.links-to-page{ width: 100%;
+text-align: center;
+}
+ul{width: 100%;}
