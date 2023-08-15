@@ -1,1 +1,17 @@
-#ul{color:#ffe6ac;}
+header{ background-color: #c78c06 ;} 
+ul{list-style: none;
+ text-align: center;
+}
+body{ background-color: #e8d19b; max-width: 1200px;}
+li:first-child{padding: 10px;} 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&display=swap');
+</style>
+
+.container {max-width: 1200px; }
+.text-wrapper{background-color: #3d2c04;}
+
+.button{display: inline-block; color: yellow;}
+footer { background-color: #3d2c04 ; text-yellow ;
+
+ }
