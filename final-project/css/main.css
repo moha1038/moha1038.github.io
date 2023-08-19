@@ -1,6 +1,6 @@
 /*this is more the font family and scrolling behaviour of the page*/
 html{scroll-behavior: smooth;} 
-body{font-family: 'Open Sans', sans-serif;  }
+body{font-family: 'Open Sans', sans-serif; margin-left: 5%;  }
 /*this is more the top part containg both the nav items and search*/
 .wrapper{background-color: #c78c06; width: 50%; height: 50%; padding-right: 50%; } 
 .search-bar{background-color: #222; padding-left: 40%; ;}
@@ -29,16 +29,16 @@ h4{font-size: 300%;}
 
 #services { padding-left: 30%;}
 
-#marketing { padding-left: 30%;}
+#marketing { padding-left: 10%; height: 500px ; width: 1000px;}
 
-#video-production { padding-left: 30%;}
+#video-production { padding-left: 10%; height: 500px ; width: 1000px;}
 
-#web-development{ padding-left: 30%;}
+#web-development{ padding-left: 10%; height: 500px ; width: 1000px;}
 
-#print { padding-left: 30%;}
+#print { padding-left: 10%; height: 500px ; width: 1000px;}
 
-#john-doe{padding-left: 30%;}
-#bob-rite{padding-left: 30%;}
+#john-doe{padding-left: 10%; height: 500px ; width: 1000px;}
+#bob-rite{padding-left: 10%; height: 500px ; width: 1000px;} 
 
 /*text in article */
 
