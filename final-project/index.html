@@ -4,62 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
+<link rel="stylesheet" href="path/to/reset.css">
 <link rel="stylesheet" href="css/main.css" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="wrapper">
 <header>  
+<section id="top-part">
+<div class="wrapper">
+<!--this is where the logo of the company goes-->
 <img id="logo" src="images/logo.png" alt="logo of the site">
-<nav>
-<ul><li>Home</li><li>About Us</li><li>Services</li><li>Team</li><li>Contact</li></ul>
-</nav>
-<label for="search">Search:</label>
-<input type="search" id="search" name="search" >
-<input type="submit" value="Search">
-</header> 
 </div>
+<!--this is where the navigation list goes </!-->
+<section id="nav-stuff">
+<div class="nav-items">
+<nav>
+    <ul> <a href="#">Home</a>
+    </li> <a href="#">About</a>
+</li> <a href="#">Contact</a> </li> 
+</ul>
+</nav>
+</div>
+</section>
+</section>
+<!--the search bar is going to be transformed like a button </!-->
+<div class="search-bar">
+<label for="search">Search</label>
+<input type="search" id="search" name="search" >
+<button type="submit">Search
+</button>
+</div>
+</header>
+<!--this is the main banner of the website-->
+<section id="all-this">
 <img id="main-banner" src="images/main-banner.jpg" alt="work space">
 <div class="text-wrapper"></div>
-<h1>Welcome to Three Star Media </h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ad adipisci aperiam doloremque autem, maiores repellendus quidem iure, deserunt praesentium iusto nobis? Consequuntur qui doloribus aperiam blanditiis assumenda unde dolore.</p>
-<div class="contact button">
+<h1>Welcome to Three Star Media</h1>
+<div class="first">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ad adipisci aperiam doloremque autem,</p> 
+<p>maiores repellendus quidem iure, deserunt praesentium iusto nobis?</p> 
+<p>>Consequuntur qui doloribus aperiam
+blanditiis assumenda unde dolore.</p>
+</div>
+<div class="contact-button">
 <button>Contact Us</button></div>
 <img id="about-us" src="images/about-us.jpg" alt="about us">
+
 <h2>About US</h2>
+<!---this is the main section of the page-->
 <section id="main-content">
 <article>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis distinctio quos illo accusamus vel nam placeat sequi minima libero, quae officiis fugiat natus qui harum dicta. Incidunt fugiat eaque eum?</p> 
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+<p>Perspiciatis distinctio quos illo accusamus vel nam placeat sequi minima libero,</p> 
+<p>quae officiis fugiat natus qui harum dicta. Incidunt fugiat eaque eum?</p> 
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid voluptatum beatae ut dolorum impedit corporis possimus et perspiciatis doloremque illo optio, quae voluptatem quas pariatur nam. Nisi, possimus excepturi.</p></article>
 </section>
+<!---this is where the services section of the page-->
 <section id="our-services">
 <h2>Our Services</h2>
 <img id="services" src="images/digital.jpg" alt="Services">
-<h2>Digital Transformation</h2>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptates, voluptatibus doloribus mollitia autem vel non facilis minus reiciendis necessitatibus debitis, quod repudiandae. Sint facilis unde doloribus magnam, fugiat voluptatem.</p>
-<div class="Digital plans button">
+<div class="words"><h2>Digital Transformation</h2>
+<p>Lorem ipsum dolor sit amet consectetur, 
+<p>adipisicing elit. Iste voluptates,</p>
+<p>voluptatibus doloribus mollitia autem vel non facilis minus reiciendis necessitatibus debitis, 
+<p>quod repudiandae. Sint facilis unde doloribus magnam, fugiat voluptatem.</p>
+</div>
+<div class="service-button">
 <button>Digital Plans</button>
 </div>
 <img id="marketing" src="images/marketing.jpg" alt="marketing">
+<div class="words">
 <h2>Marketing</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, architecto unde! Earum, molestias distinctio expedita eligendi dolorum voluptas eveniet cupiditate nihil placeat voluptates optio eius laboriosam pariatur quasi doloremque harum.</p>
-<div class="Marketing plans button">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<p>Earum, architecto unde! Earum,</p>
+<p>molestias distinctio expedita eligendi dolorum voluptas eveniet cupiditate</p>
+<p>Pnihil placeat voluptates optio eius laboriosam pariatur quasi doloremque harum.</p>
+</div>
+<div class="service-button">
 <button>Marketing plans</button></div>
 <img id="video-production" src="images/video.jpg" alt="video production">
+<div class="words">
 <h2>Video Production</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est distinctio modi inventore. Impedit, id. Aliquam voluptates quod qui voluptatum corporis, soluta quisquam repudiandae, in voluptatibus consequatur aperiam tempora natus ut?</p>
-<div class="video production"><button>Video Production</button></div>
+</div>
+<div class="words">
+<div class="service-button"><button>Video Production</button></div>
 <img id="web-development" src="images/web.jpg" alt="web development">
+<h2>web-development</h2>
 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi nam beatae quibusdam nesciunt officiis, repudiandae soluta facilis dolore pariatur harum aliquam? Voluptatibus rerum alias sunt quidem pariatur dolore nostrum atque?</p>
-<div class="web development button"><button>web development</button></div>
+<div class="words"></div>
+<div class="service-button"><button>web development</button></div>
 <img id="print" src="images/print.jpg" alt="print">
+<h2>Print</h2>
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum fugit facere laborum provident enim explicabo nulla aperiam natus maiores assumenda sequi quis vel sit, minus magnam accusamus? Alias, praesentium eveniet?</p>
-<div class="print button"><button>print</button></div>
+<div class="service-button"><button>print</button></div>
 </section>
 <section id="vision">
 <h3>Our Vision</h3>
 <img id="our-vision" src="images/vision.jpg" alt="our vision">
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, explicabo aliquam minus ea itaque est, placeat eum eius dolores, recusandae quaerat corrupti debitis sunt quisquam maiores suscipit vitae voluptate voluptatibus.</p>
-<div class="our-vision-button"><button>Our Vision</button></div>
+<div class="service-button"><button>Our Vision</button></div>
 </section>
 <section id="team">
 <h4>Our Team</h4>
@@ -71,7 +117,7 @@
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sapiente beatae, tempora ex maxime, a ratione deserunt nisi quae officiis, illo dignissimos impedit error culpa ad. Omnis esse officia earum.</p>
 </section>
 <section id="contact">
-<h4>Contact US</h4>
+<h3>Contact US</h3>
 <form action="index.html" method="post">
 <label for="fullname">Full Name</label>
 <input id="fullname" type="text">
@@ -86,11 +132,22 @@
 </form>
 <button>Send</button>
 </section>
-
-<h5>Hours of Operation</h5>
-<table></table>
-
+<div class="hours-of-operation">
+<h3>Hours of Operation</h3></div>
+<!--this is where the time table for hours of operation goes-->
+<div class="time-tables">
+<table><tr><th>Days</th><th>Hours</th>
+</tr>
+<tr><td>Monday-Friday</td><td>9am-6pm</td></tr>
+<tr><td>Saturday-Sunday</td><td>closed</td></tr>
+</table>
+</div>
+<h4>Location</h4>
+<div class="google-maps-location">
+<!---this where the google embedment goes-->
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944269826831!2d-75.75750062418524!3d45.34993724105603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1690894287580!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
 <footer><p>&copy;Copyright Three Star Media, 2020
 All photos are taken from Unleash    
 </p></footer>

@@ -1,17 +1,88 @@
-header{ background-color: #c78c06 ;} 
-ul{list-style: none;
- text-align: center;
-}
-body{ background-color: #e8d19b; max-width: 1200px;}
-li:first-child{padding: 10px;} 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&display=swap');
-</style>
-
-.container {max-width: 1200px; }
-.text-wrapper{background-color: #3d2c04;}
-
-.button{display: inline-block; color: yellow;}
-footer { background-color: #3d2c04 ; text-yellow ;
-
+/*this is more the font family and scrolling behaviour of the page*/
+html{scroll-behavior: smooth;} 
+body{font-family: 'Open Sans', sans-serif;  }
+/*this is more the top part containg both the nav items and search*/
+.wrapper{background-color: #c78c06; width: 50%; height: 50%; padding-right: 50%; } 
+.search-bar{background-color: #222; padding-left: 40%; ;}
+.submit{cursor: pointer;}
+#nav-stuff{background-color: #222;padding-left:40% 
  }
+nav
+/*this for modifying the headers*/
+ h1{font-size: 400%;color: azure; position:absolute; top: 130%; bottom: 100%; background-color: gray; }
+h2{font-size: 300%;}
+ h3{font-size: 300%; color: azure;} 
+h4{font-size: 300%;}
+/*this is for the */
+#logo{position: relative; padding-left: 30px ; }
+.contact-button{color: #c78c06; font-weight: 400 ; padding-right: 40px ;}
+.first{font-weight: 800; color: azure; position:absolute; top: 150%; bottom: 100%;}
+
+
+.service-button{border: #c78c06; font-weight: 700; color: #c78c06;}
+/*this is the main section of the page*/
+#all-this{background-color: #ffe6ac; font-weight: 200; max-width: 1200px; } 
+
+
+/*this where the images are positioned and resized*/
+#about-us {padding-left: 10%; }
+
+#services { padding-left: 30%;}
+
+#marketing { padding-left: 30%;}
+
+#video-production { padding-left: 30%;}
+
+#web-development{ padding-left: 30%;}
+
+#print { padding-left: 30%;}
+
+#john-doe{padding-left: 30%;}
+#bob-rite{padding-left: 30%;}
+
+/*text in article */
+
+
+
+
+
+
+
+
+
+
+/*this for the footer*/
+footer{background-color: #222; color: #c78c06; font-weight: 200 ;}
+
+/*this is for the media query*/
+@media screen and (max-width: 1200px) and (min-width: 720px) {
+    body {font-family: 'Open Sans', sans-serif; font-size: 16px;
+    
+        background-color: #ffe6ac;}
+       .wrapper{background-color: #c78c06;} 
+       .search-bar{background-color: #222;}
+       #nav-stuff{background-color: #222;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
